@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/nav_first"
+        android:title="@string/first"
+        android:icon="@drawable/home_icon"
+        app:showAsAction="always"/>
+
+
+    <item android:id="@+id/nav_second"
+        android:title="@string/second"
+        android:icon="@drawable/call_icon"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/nav_third"
+        android:title="@string/third"
+        android:icon="@drawable/location_icon"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/nav_fourth"
+        android:title="@string/fourth"
+        android:icon="@drawable/about_icon"
+        app:showAsAction="always"/>
+
+
+
+</menu>
