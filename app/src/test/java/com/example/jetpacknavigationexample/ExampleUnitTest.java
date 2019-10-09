@@ -1,4 +1,4 @@
-package com.escapadetechnologies.jetpacknavigationexample;
+package com.example.jetpacknavigationexample;
 
 import org.junit.Test;
 

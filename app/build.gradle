@@ -4,7 +4,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.0"
     defaultConfig {
-        applicationId "com.escapadetechnologies.jetpacknavigationexample"
+        applicationId "com.example.jetpacknavigationexample"
         minSdkVersion 15
         targetSdkVersion 29
         versionCode 1
@@ -34,4 +34,5 @@ dependencies {
     //navigation
     implementation "androidx.navigation:navigation-fragment:$nav_version"
     implementation "androidx.navigation:navigation-ui:$nav_version"
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
 }

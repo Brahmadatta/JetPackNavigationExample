@@ -1,21 +1,22 @@
-package com.escapadetechnologies.jetpacknavigationexample.Fragments;
+package com.example.jetpacknavigationexample.Fragments;
 
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.escapadetechnologies.jetpacknavigationexample.R;
+import com.example.jetpacknavigationexample.R;
 
-public class SecondFragment extends Fragment {
+public class FeaturesFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_second, container, false);
+        return inflater.inflate(R.layout.fragment_features, container, false);
     }
 
 }

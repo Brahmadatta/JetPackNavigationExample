@@ -1,4 +1,4 @@
-package com.escapadetechnologies.jetpacknavigationexample;
+package com.example.jetpacknavigationexample;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
@@ -12,6 +12,7 @@ import androidx.navigation.ui.NavigationUI;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
@@ -97,16 +98,19 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         switch (id){
 
             case R.id.profile:
-                mNavController.navigate(R.id.profile);
+                Toast.makeText(this, ""+menuItem.getTitle(), Toast.LENGTH_SHORT).show();
+               // mNavController.navigate(R.id.profile);
                 break;
 
 
             case R.id.features:
-                mNavController.navigate(R.id.features);
+                Toast.makeText(this, ""+menuItem.getTitle(), Toast.LENGTH_SHORT).show();
+                //mNavController.navigate(R.id.features);
                 break;
 
             case R.id.signOut:
-                finishAffinity();
+                Toast.makeText(this, ""+menuItem.getTitle(), Toast.LENGTH_SHORT).show();
+                //finishAffinity();
                 break;
         }
         return true;

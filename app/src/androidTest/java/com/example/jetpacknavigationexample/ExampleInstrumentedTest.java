@@ -1,4 +1,4 @@
-package com.escapadetechnologies.jetpacknavigationexample;
+package com.example.jetpacknavigationexample;
 
 import android.content.Context;
 

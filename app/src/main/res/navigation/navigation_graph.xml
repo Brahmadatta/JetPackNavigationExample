@@ -7,32 +7,32 @@
 
     <fragment
         android:id="@+id/nav_first"
-        android:name="com.escapadetechnologies.jetpacknavigationexample.Fragments.FirstFragment"
+        android:name="com.example.jetpacknavigationexample.Fragments.FirstFragment"
         android:label="@string/first"
         tools:layout="@layout/fragment_first" />
     <fragment
         android:id="@+id/nav_second"
-        android:name="com.escapadetechnologies.jetpacknavigationexample.Fragments.SecondFragment"
+        android:name="com.example.jetpacknavigationexample.Fragments.SecondFragment"
         android:label="@string/second"
         tools:layout="@layout/fragment_second" />
     <fragment
         android:id="@+id/nav_third"
-        android:name="com.escapadetechnologies.jetpacknavigationexample.Fragments.ThirdFragment"
+        android:name="com.example.jetpacknavigationexample.Fragments.ThirdFragment"
         android:label="@string/third"
         tools:layout="@layout/fragment_third" />
     <fragment
         android:id="@+id/nav_fourth"
-        android:name="com.escapadetechnologies.jetpacknavigationexample.Fragments.FourthFragment"
+        android:name="com.example.jetpacknavigationexample.Fragments.FourthFragment"
         android:label="@string/fourth"
         tools:layout="@layout/fragment_fourth" />
     <fragment
         android:id="@+id/profile"
-        android:name="com.escapadetechnologies.jetpacknavigationexample.Fragments.ProfileFragment"
+        android:name="com.example.jetpacknavigationexample.Fragments.ProfileFragment"
         android:label="@string/profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/features"
-        android:name="com.escapadetechnologies.jetpacknavigationexample.Fragments.FeaturesFragment"
+        android:name="com.example.jetpacknavigationexample.Fragments.FeaturesFragment"
         android:label="@string/features"
         tools:layout="@layout/fragment_features" />
 </navigation>

@@ -1,4 +1,4 @@
-package com.escapadetechnologies.jetpacknavigationexample.Fragments;
+package com.example.jetpacknavigationexample.Fragments;
 
 import android.os.Bundle;
 
@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.escapadetechnologies.jetpacknavigationexample.R;
+import com.example.jetpacknavigationexample.R;
 
 public class ThirdFragment extends Fragment {
 
